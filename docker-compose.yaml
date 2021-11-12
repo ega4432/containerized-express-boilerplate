@@ -19,7 +19,7 @@ services:
       - DB_CONNECTION=mysql
       - DB_HOST=db
       - DB_PORT=3306
-      - DB_DATABASE=${DB_NAME:-containerized_express_app}
+      - DB_DATABASE=${DB_NAME:-containerized_express_boilerplate}
       - DB_USERNAME=${DB_USER:-express}
       - DB_PASSWORD=${DB_PASS:-pa55w0rd}
 
@@ -61,7 +61,7 @@ services:
       retries: 3
       start_period: 15s
     environment:
-      - MYSQL_DATABASE=${DB_NAME:-containerized_express_app}
+      - MYSQL_DATABASE=${DB_NAME:-containerized_express_boilerplate}
       - MYSQL_USER=${DB_USER:-express}
       - MYSQL_PASSWORD=${DB_PASS:-pa55}
       - MYSQL_ROOT_PASSWORD=${DB_PASS:-pa55w0rd}
