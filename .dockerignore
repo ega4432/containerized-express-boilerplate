@@ -1,0 +1,19 @@
+# General
+.env
+.env.*
+**/*.log
+Makefile
+LICENSE
+
+# Node
+**/node_modules/
+
+# Git
+.git
+**/.keep
+README.md
+
+# Docker
+**/Dockerfile
+docker-compose.yaml
+.dockerignore
