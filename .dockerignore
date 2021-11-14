@@ -11,6 +11,7 @@ docs/
 
 # Git
 .git
+.github/
 **/.keep
 README.md
 
