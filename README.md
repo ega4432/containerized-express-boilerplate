@@ -17,6 +17,8 @@ This is a simple boilerplate of containerized Express monolithic application usi
 
 ```sh
 % git clone https://github.com/<YOUR_USERNAME>/<YOUR_REPOSITORY>.git
+
+% cp ./.env.example ./.env
 ```
 
 2. Build and run the containerized environment  in your local machine.
