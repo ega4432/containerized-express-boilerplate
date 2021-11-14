@@ -1,4 +1,9 @@
-# containerized-express-boilerplate [![Build](https://github.com/ega4432/containerized-express-boilerplate/actions/workflows/build.yml/badge.svg)](https://github.com/ega4432/containerized-express-boilerplate/actions/workflows/build.yml)
+# containerized-express-boilerplate
+
+[![Build](https://github.com/ega4432/containerized-express-boilerplate/actions/workflows/build.yaml/badge.svg)](https://github.com/ega4432/containerized-express-boilerplate/actions/workflows/build.yaml)
+![node.js](https://img.shields.io/badge/node-16.13.0--alpine3.12-blue.svg?style=plastic&logo=node.js&logoColor=#339933)
+![nginx](https://img.shields.io/badge/nginx-1.21.3--alpine-blue.svg?logo=nginx&logoColor=#009639)
+![mysql](https://img.shields.io/badge/mysql-8.0-blue.svg?logo=mysql&logoColor=#4479A1)
 
 ![Overview](https://github.com/ega4432/containerized-express-boilerplate/blob/main/docs/overview.png)
 
