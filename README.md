@@ -1,4 +1,4 @@
-# containerized-express-boilerplate
+# containerized-express-boilerplate [![Build](https://github.com/ega4432/containerized-express-boilerplate/actions/workflows/build.yml/badge.svg)](https://github.com/ega4432/containerized-express-boilerplate/actions/workflows/build.yml)
 
 ![Overview](https://github.com/ega4432/containerized-express-boilerplate/blob/main/docs/overview.png)
 
