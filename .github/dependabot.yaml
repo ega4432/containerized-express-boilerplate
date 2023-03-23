@@ -1,9 +1,19 @@
 version: 2
-
 updates:
-- package-ecosystem: docker
-  directory: "./services/"
-  schedule:
-    interval: "daily"
-  reviewers:
-    - "ega4432"
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    assignees:
+      - "dependabot"
+    reviewers:
+      - "ega4432"
+
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    assignees:
+      - "dependabot"
+    reviewers:
+      - "ega4432"
